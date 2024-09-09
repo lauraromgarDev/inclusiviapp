@@ -1,0 +1,42 @@
+# Laravel
+/public/storage
+/storage/*.key
+/vendor
+/node_modules
+.env
+.env.backup
+.env.production
+
+# Laravel - Build Files
+/public/build
+/public/hot
+
+# PHPUnit
+/.phpunit.result.cache
+.phpunit.result.cache
+
+# IDEs and Tools
+/.phpactor.json
+Homestead.json
+Homestead.yaml
+.phpactor.json
+/.vscode
+/.idea
+/.fleet
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Log and debug files
+npm-debug.log
+yarn-error.log
+pids
+*.log
+
+# Composer
+composer.phar
+/composer.lock
+
+# Other Config files
+auth.json
