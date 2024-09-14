@@ -8,7 +8,7 @@
             <h1>Sobre Nosotros</h1>
             <nav class="breadcrumbs">
                 <ol>
-                <li><a href="index.html">Inicio</a></li>
+                <li><a href="{{ route ('main.index') }}">Inicio</a></li>
                 <li class="current">Sobre Nosotros</li>
                 </ol>
             </nav>
@@ -21,7 +21,7 @@
             <div class="container">
                 <div class="content">
                     <div class="row justify-content-center align-items-center">
-                        <div class="col-sm-12 col-md-5 col-lg-4 col-xl-4 order-lg-2 offset-xl-1 mb-4">
+                        <div class="col-sm-12 col-md-5 col-lg-4 col-xl-4 order-lg-2 offset-xl-1 mb-4 m-1">
                             <div class="justify-content-center" data-aos="fade-up" data-aos-delay="100">
                                 <div class="images-overlap">
                                     <iframe src="https://www.youtube.com/embed/dfmItZX5ilc"
@@ -377,7 +377,7 @@
                         </p>
                         <div class="pic">
                             <img src="{{ asset('assets/img/inclusiviapp/logo_transparente.png') }}"
-                                 alt="Image"
+                                 alt="Logo"
                                  class="img-fluid">
                         </div>
                     </div>
