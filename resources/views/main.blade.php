@@ -6,106 +6,134 @@
     <!-- About Section -->
     <section id="about" class="about section">
 
-      <div class="container">
-        <div class="row align-items-center justify-content-between">
-          <div class="col-lg-7 mb-5 mb-lg-0 order-lg-2" data-aos="fade-up" data-aos-delay="400">
-            <div class="swiper init-swiper">
-              <script type="application/json" class="swiper-config">
-                {
-                  "loop": true,
-                  "speed": 600,
-                  "autoplay": {
-                    "delay": 5000
-                  },
-                  "slidesPerView": "auto",
-                  "pagination": {
-                    "el": ".swiper-pagination",
-                    "type": "bullets",
-                    "clickable": true
-                  },
-                  "breakpoints": {
-                    "320": {
-                      "slidesPerView": 1,
-                      "spaceBetween": 40
-                    },
-                    "1200": {
-                      "slidesPerView": 1,
-                      "spaceBetween": 1
-                    }
-                  }
-                }
-              </script>
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <img src="assets/img/img_h_6.jpg" alt="Image" class="img-fluid">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-lg-12" data-aos="fade-up" data-aos-delay="400">
+                    <div class="swiper init-swiper">
+                        <script type="application/json" class="swiper-config">
+                          {
+                            "loop": true,
+                            "speed": 600,
+                            "autoplay": {
+                              "delay": 5000
+                            },
+                            "slidesPerView": 1,
+                            "pagination": {
+                              "el": ".swiper-pagination",
+                              "type": "bullets",
+                              "clickable": true
+                            },
+                            "breakpoints": {
+                              "320": {
+                                "slidesPerView": 1,
+                                "spaceBetween": 40
+                              },
+                              "1200": {
+                                "slidesPerView": 1,
+                                "spaceBetween": 1
+                              }
+                            }
+                          }
+                        </script>
+
+                        <div class="swiper-wrapper">
+                          <!-- Slide 1 -->
+                          <div class="swiper-slide">
+                              <div class="row align-items-center">
+                                  <div class="col-md-6">
+                                    <img src="{{ asset('assets/img/inclusiviapp/proyectos/teatro.png') }}" alt="Image 1" class="img-fluid">
+                                  </div>
+                                  <div class="col-md-6">
+                                      <span class="section-subtitle">Inclusivos y Diversos</span>
+                                      <h1 class="mb-4">ESCUELA DE TEATRO INCLUSIVO Y ACCESIBLE, GLORIA RAMOS</h1>
+                                      <p>
+                                        Espacio creativo y de aprendizaje donde todas las personas podrán desarrollarse dentro de las artes escénicas.                                      </p>
+                                      <p class="mt-5">
+                                          <a href="#" class="btn btn-get-started">Más información</a>
+                                      </p>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <!-- Slide 2 -->
+                          <div class="swiper-slide">
+                              <div class="row align-items-center">
+                                  <div class="col-md-6">
+                                      <img src="{{ asset('assets/img/inclusiviapp/proyectos/musicoterapia.png') }}"  alt="Image 2" class="img-fluid">
+                                  </div>
+                                  <div class="col-md-6">
+                                      <span class="section-subtitle">Inclusivos y Diversos</span>
+                                      <h1 class="mb-4">MUSICOTERAPIA</h1>
+                                      <p>Desarrollo de programas de Musicoterapia en ámbitos Educativos, Atención Infantil Temprana, Geriatría, Adolescencia, Salud mental y Hospitalario. Sesiones individuales y/o grupales.</p>
+                                      <p class="mt-5">
+                                        <a href="#" class="btn btn-get-started">Más información</a>
+                                    </p>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <!-- Slide 3 -->
+                          <div class="swiper-slide">
+                              <div class="row align-items-center">
+                                  <div class="col-md-6">
+                                      <img src="{{ asset('assets/img/inclusiviapp/proyectos/accesibilidad.png')}}" alt="Image 3" class="img-fluid">
+                                  </div>
+                                  <div class="col-md-6">
+                                      <span class="section-subtitle">Inclusivos y Diversos</span>
+                                      <h1 class="mb-4">ACCESIBILIDAD</h1>
+                                      <p>
+                                        Servicios para que todas las personas con algún tipo de diversidad funcional tengan acceso a cualquier ámbito en su vida diaria.                                      </p>
+                                      <p class="mt-5">
+                                        <a href="#" class="btn btn-get-started">Más información</a>
+                                      </p>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <!-- Slide 4 -->
+                          <div class="swiper-slide">
+                              <div class="row align-items-center">
+                                  <div class="col-md-6">
+                                      <img src="{{ asset('assets/img/inclusiviapp/proyectos/escuela.png')}}" alt="Image 4" class="img-fluid">
+                                  </div>
+                                  <div class="col-md-6">
+                                      <span class="section-subtitle">Inclusivos y Diversos</span>
+                                      <h1 class="mb-4">ESCUELA DE LENGUA DE SIGNOS ESPAÑOLA</h1>
+                                      <p>
+                                        Aprendizaje y fomento de la Lengua de Signos Española, sistemas de comunicación y técnicas guía de personas Sordociegas y Braille. Cursos y Talleres Presenciales / on line.                                      </p>
+                                      <p class="mt-5">
+                                        <a href="#" class="btn btn-get-started">Más información</a>
+                                      </p>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <!-- Slide 5 -->
+                          <div class="swiper-slide">
+                              <div class="row align-items-center">
+                                  <div class="col-md-6">
+                                    <img src="{{ asset('assets/img/inclusiviapp/proyectos/ocio.png')}}" alt="Image 5" class="img-fluid">
+                                </div>
+                                  <div class="col-md-6">
+                                      <span class="section-subtitle">Inclusivos y Diversos</span>
+                                      <h1 class="mb-4">OCIO INCLUSIVO</h1>
+                                      <p>
+                                        Actividades donde personas con diversidad funcional y sin ella se relacionan y disfrutan de su tiempo libre.                                      </p>
+                                      <p class="mt-5">
+                                          <a href="#" class="btn btn-get-started">Únete Ahora</a>
+                                      </p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                        <!-- Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
                 </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/img_h_7.jpg" alt="Image" class="img-fluid">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/img_h_8.jpg" alt="Image" class="img-fluid">
-                </div>
-              </div>
-              <div class="swiper-pagination"></div>
             </div>
-          </div>
-          <div class="col-lg-4 order-lg-1">
-            <span class="section-subtitle" data-aos="fade-up">Welcome</span>
-            <h1 class="mb-4" data-aos="fade-up">
-              Excepteur sint occaecat cupidatat non proident
-            </h1>
-            <p data-aos="fade-up">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated they
-              live in Bookmarksgrove right at the coast of the Semantics, a large
-              language ocean.
-            </p>
-            <p class="mt-5" data-aos="fade-up">
-              <a href="#" class="btn btn-get-started">Get Started</a>
-            </p>
-          </div>
         </div>
-      </div>
-    </section><!-- /About Section -->
-
-    <!-- About 2 Section -->
-    <section id="about-2" class="about-2 section light-background">
-
-      <div class="container">
-        <div class="content">
-          <div class="row justify-content-center">
-            <div class="col-sm-12 col-md-5 col-lg-4 col-xl-4 order-lg-2 offset-xl-1 mb-4">
-              <div class="img-wrap text-center text-md-left" data-aos="fade-up" data-aos-delay="100">
-                <div class="img">
-                  <img src="assets/img/img_v_3.jpg" alt="circle image" class="img-fluid">
-                </div>
-              </div>
-            </div>
-
-            <div class="offset-md-0 offset-lg-1 col-sm-12 col-md-5 col-lg-5 col-xl-4" data-aos="fade-up">
-              <div class="px-3">
-                <span class="content-subtitle">Our Mission</span>
-                <h2 class="content-title text-start">
-                  The Big Oxmox advised her not to do so, because there were
-                  thousands.
-                </h2>
-                <p class="lead">
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia. It is a paradisematic country.
-                </p>
-                <p class="mb-5">
-                  The Big Oxmox advised her not to do so, because there were
-                  thousands of bad Commas, wild Question Marks and devious Semikoli.
-                </p>
-                <p>
-                  <a href="#" class="btn-get-started">Get Started</a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- /About 2 Section -->
+    </section>
 
     <!-- Services Section -->
     <section id="services" class="services section light-background">
