@@ -10,6 +10,7 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-lg-12" data-aos="fade-up" data-aos-delay="400">
                     <div class="swiper init-swiper">
+                        {{-- maneja la configuracion del slider  --}}
                         <script type="application/json" class="swiper-config">
                           {
                             "loop": true,
@@ -126,8 +127,7 @@
                               </div>
                           </div>
                       </div>
-
-                        <!-- Pagination -->
+                          <!-- Pagination -->
                         <div class="swiper-pagination"></div>
                     </div>
                 </div>
@@ -136,7 +136,7 @@
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="services section light-background">
+    <section id="services" class="services section light-background m-2">
 
       <div class="container">
         <div class="row gy-4 justify-content-center">

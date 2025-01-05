@@ -2390,3 +2390,25 @@ section,
     height: 315px;
     border: none;
 }
+
+
+
+
+
+.about .swiper-pagination .swiper-pagination-bullet {
+    margin: 0 5px;
+    background: #17a2b8 !important;
+    opacity: 0.3;
+
+}
+
+.about .swiper-pagination {
+    position: absolute;
+    bottom: 0px !important;
+}
+
+.img-fluid {
+    margin-bottom: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}

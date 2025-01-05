@@ -71,9 +71,9 @@
                 <div class="row gy-4 justify-content-center">
 
                     <div class="col-lg-11">
-                        <span class="content-title">Historia</span>
-                        <h2 class="content-title">Las buenas historias son las que empiezan con experiencias individuales, llegándose a unir en el momento perfecto para crear un sueño en común.</h2>
-                        <div class="services-item" data-aos="fade-up">
+                        <span class="content-title p-2">Historia</span>
+                        <h2 class="content-title p-2">Las buenas historias son las que empiezan con experiencias individuales, llegándose a unir en el momento perfecto para crear un sueño en común.</h2>
+                        <div class="services-item p-3" data-aos="fade-up">
                             <div>
                             <p>
                                 Nuestras vidas, por circunstancias personales o vocacionales, nos hacen sentir el fuerte impulso de conocer vías y caminos para que, personas con distintas necesidades puedan disfrutar de una vida digna y en igualdad, enriqueciéndonos mutuamente de las características que nos diferencian.
