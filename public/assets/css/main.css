@@ -2412,3 +2412,29 @@ section,
     padding-right: 30px;
     padding-bottom: 30px;
 }
+
+.cajalogin
+{
+  width:550px;
+  max-width:95%;
+  margin:0 auto;
+}
+
+.loginwrapper
+{
+  background:#f3f4f4;
+  height:100vh;
+  display:flex;
+  align-items:center;
+}
+
+
+.btn-primary
+{
+    background-color:var(--nav-hover-color);
+}
+
+.btn-primary:hover
+{
+    background-color: grey;
+}

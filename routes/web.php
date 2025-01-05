@@ -4,11 +4,17 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\SobreNosotrosController;
 use App\Http\Controllers\Proyectos\ProyectosController;
+use App\Http\Controllers\LoginController;
+
 
 
 
 
 Route::get('/', [MainController::class, 'index'])->name('main.index');
+
+Route::get('/iniciarSesion', [LoginController::class, 'index'])->name('login.index');
+Route::get('/login', [LoginController::class, 'login'])->name('login');
+
 
 Route::prefix('sobreNosotros')->group(function () {
     Route::get('/', [SobreNosotrosController::class, 'index'])->name('sobreNosotros.index');
