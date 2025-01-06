@@ -12,8 +12,13 @@ use App\Http\Controllers\LoginController;
 
 Route::get('/', [MainController::class, 'index'])->name('main.index');
 
-Route::get('/iniciarSesion', [LoginController::class, 'index'])->name('login.index');
-Route::get('/login', [LoginController::class, 'login'])->name('login');
+Route::get('/acceder', [LoginController::class, 'index'])->name('login.index');
+Route::post('/login', [LoginController::class, 'login'])->name('login');
+
+
+Route::middleware(['auth', 'web' ])->group(function () {
+    Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
+});
 
 
 Route::prefix('sobreNosotros')->group(function () {
@@ -22,6 +27,6 @@ Route::prefix('sobreNosotros')->group(function () {
 });
 
 Route::prefix('proyectos')->group(function () {
-    Route::get('/', [ProyectosController::class, 'index'])->name('sobreNosotros.index');
+    Route::get('/', [ProyectosController::class, 'index'])->name('proyectos.index');
     // Route::get('/crear', [ProyectosController::class, 'crear'])->name('sobreNosotros.crear');
 });

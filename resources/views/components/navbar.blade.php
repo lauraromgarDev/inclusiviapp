@@ -1,4 +1,4 @@
-<header id="header" class="header d-flex align-items-center sticky-top">
+<header id="header" class="header d-flex align-items-center sticky-top w-100">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
       <a href="{{ route ('main.index') }}" class="logo d-flex align-items-center">
@@ -29,8 +29,24 @@
             </ul>
           </li>
           <li><a href="contact.html">Mi Espacio</a></li>
-          <li><a href="contact.html">Hazte socio</a></li>
+
+        @guest
+            <li><a href="contact.html">Hazte socio</a></li>
+            <li><a href="{{ route ('login.index')}}">Acceder</a></li>
+        @endguest
+
           <li><a href="contact.html">Contacto</a></li>
+
+          @auth
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              {{ Auth::user()->login }} <span class="caret"></span>
+            </a>
+            <ul class="dropdown">
+              <li><a href="{{ route('logout') }}">Cerrar sesión</a></li>
+            </ul>
+          </li>
+        @endauth
 
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
