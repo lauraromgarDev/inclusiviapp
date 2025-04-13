@@ -28,5 +28,6 @@ Route::prefix('sobreNosotros')->group(function () {
 
 Route::prefix('proyectos')->group(function () {
     Route::get('/', [ProyectosController::class, 'index'])->name('proyectos.index');
-    // Route::get('/crear', [ProyectosController::class, 'crear'])->name('sobreNosotros.crear');
+    Route::get('/{proyecto}', [ProyectosController::class, 'ver'])->name('ver');
+
 });

@@ -338,7 +338,7 @@
                     <div class="swiper-slide">
                         <div class="team">
                             <div class="pic">
-                                <img src="{{ asset('assets/img/inclusiviapp/equipo/lucia.png') }}" alt="Image" class="img-fluid">
+                                <img src="{{ asset('assets/img/inclusiviapp/equipo/raqui.png') }}" alt="Image" class="img-fluid">
                             </div>
                             <h3 clas="">
                             <a href="#"><span class="">RAQUEL</span> ALIAGA GARCIA</a>
