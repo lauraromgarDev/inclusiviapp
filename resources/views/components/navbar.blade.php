@@ -17,22 +17,23 @@
                         <li><a href="{{ route('ver', ['proyecto' => 'musicoterapia']) }}">MUSICOTERAPIA PARA TOD@S</a>
                         </li>
                         <li class="dropdown">
-                            <a href="#">
+                            <a href="{{ route('ver', ['proyecto' => 'escuelalenguajedesignos']) }}">
                                 <span>ESCUELA DE LENGUA DE SIGNOS ESPAÑOLA</span>
                                 <i class="bi bi-chevron-down toggle-dropdown"></i>
                             </a>
                             <ul>
                                 <li class="dropdown">
-                                    <a href="#">
+                                    <a href="#cursos-y-talleres">
                                         CURSOS Y TALLERES
                                         <i class="bi bi-chevron-right toggle-dropdown"></i>
                                     </a>
                                     <ul class="submenu-right">
-                                        <li><a href="#">CURSOS PRESENCIALES</a></li>
-                                        <li><a href="#">CURSOS ONLINE</a></li>
+                                        <li><a href="#presenciales">CURSOS PRESENCIALES</a></li>
+                                        <li><a href="#online">CURSOS ONLINE</a></li>
                                     </ul>
                                 </li>
                             </ul>
+
                         </li>
 
 
