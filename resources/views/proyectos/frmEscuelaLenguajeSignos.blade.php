@@ -41,7 +41,7 @@
         </div>
     </section>
 
-    <section id="cursos-y-talleres" class="services section light-background py-5">
+    <section id="cursos-y-talleres" class="services section light-background py-5 cursos-y-talleres">
         <div class="container">
 
             <div class="row justify-content-center light-background">
@@ -136,8 +136,8 @@
     </section>
 
     <section id="about-2" class="py-5">
-        <div class="container"  id="presenciales">
-            <div class="row align-items-center bg-white rounded-4 p-5 shadow-sm" data-aos="fade-up">
+        <div class="container presenciales">
+            <div class="row align-items-center bg-white rounded-4 p-5 shadow-sm " data-aos="fade-up">
                 <!-- Vídeo -->
                 <div class="col-md-5 col-lg-4 order-lg-2 mb-4 mb-lg-0">
                     <div class="ratio ratio-16x9">
@@ -158,8 +158,8 @@
                 </div>
             </div>
         </div>
-        <div class="container"  id="online">
-            <div class="row align-items-center bg-white rounded-4 p-5 shadow-sm" data-aos="fade-up">
+        <div class="container online"  id="">
+            <div class="row align-items-center bg-white rounded-4 p-5 shadow-sm online" data-aos="fade-up">
                 <!-- Vídeo a la izquierda -->
                 <div class="col-md-5 col-lg-4 mb-4 mb-lg-0">
                     <div class="ratio ratio-16x9">

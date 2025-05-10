@@ -23,23 +23,39 @@
                             </a>
                             <ul>
                                 <li class="dropdown">
-                                    <a href="#cursos-y-talleres">
-                                        CURSOS Y TALLERES
-                                        <i class="bi bi-chevron-right toggle-dropdown"></i>
-                                    </a>
-                                    <ul class="submenu-right">
-                                        <li><a href="#presenciales">CURSOS PRESENCIALES</a></li>
-                                        <li><a href="#online">CURSOS ONLINE</a></li>
-                                    </ul>
+                                  <a href="/proyectos/escuelalenguajedesignos?destino=cursos-y-talleres">
+                                    CURSOS Y TALLERES
+                                    <i class="bi bi-chevron-right toggle-dropdown"></i>
+                                  </a>
+                                  <ul class="submenu-right">
+                                    <li>
+                                      <a href="/proyectos/escuelalenguajedesignos?destino=presenciales">CURSOS PRESENCIALES</a>
+                                    </li>
+                                    <li>
+                                      <a href="/proyectos/escuelalenguajedesignos?destino=online">CURSOS ONLINE</a>
+                                    </li>
+                                  </ul>
                                 </li>
-                            </ul>
-
+                              </ul>
                         </li>
 
 
-                        <li><a href="{{ route('ver', ['proyecto' => 'musicoterapia']) }}">ESCUELA DE TEATRO INCLUSIVO Y
+                        <li ><a href="{{ route('ver', ['proyecto' => 'musicoterapia']) }}">ESCUELA DE TEATRO INCLUSIVO Y
                                 ACCESIBLE GLORIA RAMOS</a></li>
-                        <li><a href="#">Dropdown 3</a></li>
+                                <li class="dropdown">
+                                    <a href="{{ route('ver', ['proyecto' => 'escuelaaccesibiliad']) }}">
+                                      <span>ACCESIBILIDAD</span>
+                                      <i class="bi bi-chevron-down toggle-dropdown"></i>
+                                    </a>
+                                    <ul>
+                                      <li>
+                                        <a href="/proyectos/escuelaaccesibiliad?destino=servicioILSE">
+                                          Servicio ILSE / GILSE
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </li>
+
                         <li><a href="#">Dropdown 4</a></li>
                     </ul>
                 </li>

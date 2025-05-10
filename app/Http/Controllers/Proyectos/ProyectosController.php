@@ -28,7 +28,7 @@ class ProyectosController extends Controller
                 $proyecto = 'proyectos.frmEscuelaLenguajeSignos';
                 break;
             case 'escuelaaccesibiliad':
-                $proyecto = 'proyectos.escuelaaccesibilidad';
+                $proyecto = 'proyectos.frmEscuelaAccesibilidad';
                 break;
             case 'ocioinclusivo':
                 $proyecto = 'proyectos.ocioinclusivo';

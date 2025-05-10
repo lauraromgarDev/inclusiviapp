@@ -219,3 +219,17 @@
   });
 
 })();
+
+document.addEventListener("DOMContentLoaded", function () {
+    const params = new URLSearchParams(window.location.search);
+    const destino = params.get("destino");
+    if (destino) {
+      const section = document.querySelector(`.${destino}`);
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+
+        // Opcional: limpiar la URL quitando ?destino=...
+        history.replaceState(null, "", window.location.pathname);
+      }
+    }
+  });
